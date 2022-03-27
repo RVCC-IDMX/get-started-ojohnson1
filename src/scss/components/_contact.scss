@@ -1,0 +1,61 @@
+
+$base-color-dark: #c4c4c4;
+$border-radius: 0.5rem;
+
+#formelements{
+        
+    display:grid;
+    row-gap: .5em;
+
+ }
+ #contact { padding: 1rem;
+           max-width: 660px; 
+           margin:2rem auto;
+
+           box-shadow: 0px 0px 20px $base-color-dark;
+           border-radius: $border-radius;
+           padding: 2rem;
+           width: 600px;
+           margin: 0 0.5rem 4rem;
+           background-color: white;
+           text-align: center;
+         
+}
+
+fieldset{ background-image: white;
+      
+    border: 2px solid   #43538c;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    
+ }
+
+ legend { background-color: #43538c;
+    color: white;
+    padding: .5em ;
+
+ }
+
+#contactarea input, #contact textarea, #contact select , #contact button {
+   padding:.5em;
+   font-size: 1rem;
+}
+
+#contact ul {
+    list-style: none;
+    padding:0px;
+}
+
+#contact li {
+           margin: 1rem; 
+}
+
+#contact button {
+         background-color: #43538c;
+         color:white;
+          border: 1px solid  #43538c;
+          max-width: 400px;
+          width:50%;
+          justify-self: center;
+        
+}
