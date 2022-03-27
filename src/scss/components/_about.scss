@@ -1,0 +1,29 @@
+$base-color-dark: #c4c4c4;
+$border-radius: 0.5rem;
+
+.about-card{
+    box-shadow: 0px 0px 20px $base-color-dark;
+    border-radius: $border-radius;
+    padding: 2rem;
+    width: 500px;
+    margin: 0 0.5rem 4rem;
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+  
+    &__title{
+        text-align: center;
+        font-size: large;
+    }
+
+    &__description{
+        text-align: justify;
+        line-height: 1.5em;
+        font-size: 16px;
+        
+    }
+   
+    .about-card__description p{
+        padding: 1rem;
+    }
+}
