@@ -19,28 +19,23 @@
           <ul class="nav__menu">
             <li>  <img src="images/logo.svg"
               alt="Official Logo"></li>
-            <li><a href="#"> Get Started</a></li>
-            <li><a href="#"> About </a></li>
-            <li><a href="#"> Contact </a></li>
+            <li><a href="#getstarted"> Get Started</a></li>
+            <li><a href="#about"> About </a></li>
+            <li><a href="#contactform"> Contact </a></li>
           </ul>
 
       </div>
       
   </nav>
-    <!-- <nav class="nav">
-      <input type="checkbox" id="nav__checkbox" class="nav__checkbox" />
-      <label for="nav__checkbox" class="nav__toggle"> </label>
 
-    
-    </nav> -->
 
     <div class="main-content">
       <div class="main-content__title">
         <h1>Get Started</h1>
       </div>
-      <div class="card-wrapper">
+      <div class="card-wrapper" id="getstarted">
         <div class="card">
-          <div class="card__title">Pick a Template</div>
+          <div class="card__title"> <h2>Pick a Template </h2></div>
           <div class="card__description">
             Choose from a selection of over 300 templates. Perfect for
             Birthdays, Graduation;Anniversaries,and more!
@@ -48,7 +43,7 @@
         </div>
 
         <div class="card">
-          <div class="card__title">Make it your own</div>
+          <div class="card__title"> <h2> Make it your own</h2></div>
           <div class="card__description">
             Customize your card by uploading images,videos,and writing a
             personal message
@@ -56,13 +51,74 @@
         </div>
 
         <div class="card">
-          <div class="card__title">Share it out</div>
+          <div class="card__title"><h2>
+            Share it out
+          </h2></div>
           <div class="card__description">
             Send your card out by email or text. You can send your card out
             immediately or schedule it for the perfect time and date.
           </div>
         </div>
       </div>
+
+    <div class="about-card" id="about">
+      <div class="about-card__title">
+       <h2>About</h2>
+      </div>
+      <div class="about-card__description">
+      <p> This platform was created to allow people to celebrate the most important moments in life in a modern way. On this site you will have the ability to create a special digital card for special life events. It’s simple. You pick the card template of your choice. We have over 1,000 events and occasions to choose from.</p>
+      <p> Next you can customize your card. You can do this by adding videos and images or typing a special message. Finally, you schedule to have card sent out by email and text. It’s as simple as 1,2,3.The world is constantly changing. However, through technology people can stay connected no matter where they are. On this platform we make it our mission to make celebrating convenient and personable. </p>
+        
+      </div>
+
     </div>
+    <section id="contact">    
+            
+      <h2>Contact Us:</h2>
+
+      <form id="contactform" name="contactform" data-netlify="true" method="POST">
+          <fieldset>
+              <legend> Contact Form </legend>
+              <div id="formelements">
+                   <!-- Name -->
+                <label for="name" > Name (required)</label>
+                <input type="text" id="name" name="name" required>
+
+           
+                     <!-- Email -->
+                 <label for="email" > Email (required)</label>
+                 <input type="email" id="email" name="email" required>
+
+                    <!-- Phone Type -->
+        
+                   
+                  
+                   
+                   
+                    <!-- Message -->
+                    <label for="message"> Message(optional) </label>
+                    <textarea id="message" name="message" rows="8"> </textarea>
+                  
+                
+
+                 
+
+                    
+                    <!-- Submit -->
+                    <button type="submit">Send </button>
+             </div>
+          </fieldset>                                      
+          
+
+    </form>
+
+
+
+
+
+  </section>
+
+    </div>
+
   </body>
 </html>
