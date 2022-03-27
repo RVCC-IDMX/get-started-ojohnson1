@@ -17,4 +17,22 @@
     align-items: center;
     margin: 1rem;
   }
+    
+  
+}
+
+img{
+  height: 3em;
+}
+li{
+  list-style: none;
+
+  &:first-child{
+    margin-right: auto;
+  }
+}
+
+a{
+  text-decoration: none;
+  color:black;
 }
