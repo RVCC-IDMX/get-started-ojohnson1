@@ -1,0 +1,115 @@
+/* make scrolling smooth */
+html{
+    scroll-behavior: smooth;
+}
+
+/* 
+get rid of padding & sizing on body so
+header is at top
+*/
+body{ box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+
+/* add some padding back to rest of page */
+
+main{
+  padding: 2vw;
+}
+
+/* navigation list */
+.navbar-links li {
+  list-style: none;
+  display: block;
+  padding: .5em 0;
+
+}
+
+
+/*  
+style all a tags in header 
+and then on hover
+*/
+
+
+.navbar-links a{
+      color: white;
+      background-color:  #43538c;
+      font-size: 1.5rem;
+      padding:1rem 1.5rem;
+      letter-spacing: 2px;
+      text-decoration: none;
+      display: inline-block;
+      display: none;
+  
+
+}
+
+.navbar-links a:hover,
+.navbar-links a:focus {
+
+  color: #43538c ;
+  background-color: white;
+  border-radius: 10px;
+  outline:none;
+
+  }
+
+  
+
+
+
+
+
+  /* Hamburger Icon Styling */
+ .nav__toggle {
+
+  position: absolute;
+  cursor: pointer;
+  margin:0rem 1rem;
+  right:0;
+}
+
+.close,.menu{
+  width: 2rem;
+  
+}
+
+.close{ display: none;}
+
+.menu{ margin-top: .2rem;}
+
+
+.nav__checkbox { display: none;}
+
+
+
+#nav__checkbox:checked ~ .navbar-links a  {
+display:block;}
+
+#nav__checkbox:checked ~ label .nav__toggle .close{ display: block;}
+#nav__checkbox:checked ~ label.nav__toggle .menu{ display: none;}
+
+/* 
+media query for non-mobile nav bar
+min-width set to width of nav elements 
+such that no text wraps.
+*/
+@media screen and (min-width:60em) {
+  
+  .nav { display: flex;
+       flex-direction: row;
+      
+  }
+
+
+  .nav ul {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .nav__toggle {display: none;}
+  .navbar-links a { display: block;}
+}
