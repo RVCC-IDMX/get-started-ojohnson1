@@ -1,34 +1,14 @@
-# Starter Page Builder
+# Responsive Page
 
 ## How to use this repo
 
-1. Clone the repo
-1. In your terminal, run
-   ```bash
-   npm install
-   ```
-1. In your terminal, run the parcel watcher
-   ```bash
-   npm run dev
-   ```
+This project enabled students to utiize BEM, SASS and responsive design. Students expounded on a figma design to create a web page for mobile,tablet,and desktop device sizes.
 
-### The Parcel dev script
 
-The Parcel dev script will watch your files for changes automatically and will live update your browser.
+Angela Figma Design videos
+[Angela Figma Design](https://www.youtube.com/watch?v=G4Z0E9uEb0o)
+[Angela Responsive Nav](https://www.youtube.com/watch?v=SIzi9z8mrTk)
 
-1. In your browser, go to `http://localhost:1234/`
-1. ParcelJS will reload the page when changes are made
 
-### How to stop a watcher
+[My Figma Design](https://www.figma.com/file/y3ewl2Q8CfsX4FZyhUTTlp/responsive-page?node-id=0%3A1)
 
-When you want to stop the watcher, click in the terminal and press ctrl-c
-
-## When you are ready to go to production
-
-1. In your terminal, run
-
-   ```bash
-   npm run build
-   ```
-
-1. The final version of your site will be in the `dist` folder.
